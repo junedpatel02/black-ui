@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid purple; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1{
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    padding: 15px;
+
+}
+
+.text-button-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-button-con button{
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid orange;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    font-size: 15px;
+}
+
+.btn-con01{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-heading{
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.paragraph{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #828382
+}
+
+.card-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card{
+    width: 250px;
+    /* height: 285px; */
+    padding: 15px;
+    background-color:#151617;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn-con{
+    width: 100%;
+    height: 30px;
+    
+
+    
+}
+
+.btn-con button{
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+   background-color: #2A2B32;
+   color: white;
+   font-size: 15px;
+}
+
+.heading-p{
+    width: 100%;
+    height: 80px;
+}
+
+.heading-p  h1{
+    padding-block: 5px;
+    
+
+}
+
+.heading-p p{
+    padding-block: 6px;
+    font-size: 12px;
+    color: #9C9C9E;
+    
+}
+
+.list-section{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+
+}
+
+.list-section ul li{
+    list-style: none;
+    margin: 5px;
+    font-size: 12px;
+    color: #9C9C9E;
+}
+
+
+.lear-btn button{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    background-color:#2A2B32 ;
+    /* color: white; */
+    font-size: 17px;
+    margin: 10px;
+    color: white;
+    border: none;
+}
+
+
+.lear-btn{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+#try{
+    background-color: #F8C26D;
+    color: black;
+}
+
+SUB{
+    font-size: 15PX;
+color: #828382;
+}
+
+
+
+
+
+
+@media (max-width:480px)  {
+
+    .container1{
+        width: 100%;
+        height: auto;
+    }
+
+    .h1-heading{
+        font-size: 15px;
+        
+    }
+
+
+    .paragraph{
+        font-size: 14px;
+    }
+
+    .card-container{
+        height: auto;
+        display: flex;
+        align-items: center;;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    
+}
